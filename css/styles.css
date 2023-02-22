@@ -43,9 +43,19 @@ body {
     color: #616161;
 }
 
-.wrapper { 
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
+[class*"_container"]{
+    max-width: 1057px;
+    margin: 0px auto;
+}
 
-
+main {
+    flex: 1 1 auto;
+}
 
