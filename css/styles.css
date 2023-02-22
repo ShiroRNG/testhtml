@@ -50,7 +50,7 @@ body {
     min-height: 100%;
 }
 
-[class*"_container"]{
+[class*="_container"]{
     max-width: 1057px;
     margin: 0px auto;
 }
@@ -59,3 +59,51 @@ main {
     flex: 1 1 auto;
 }
 
+.header{
+
+}
+.header__container {
+    display: flex;
+    min-height: 114px;
+    align-items: center;
+}
+.header__logo {
+
+}
+.header__menu{
+    flex: 1 1 auto;
+}
+.header__button{
+    flex: 0 0 252px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu__list{
+
+}
+.menu__item {
+
+}
+.menu__link{
+
+}
+
+.button{
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.14em;
+    padding: 13px 30px;
+    color: #FCFDFE;
+    border-radius: 5px;
+}
+.button_blue{
+    background: #4285F4;
+}
